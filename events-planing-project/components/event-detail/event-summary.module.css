@@ -1,0 +1,49 @@
+.summary {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    background-image: linear-gradient(to bottom left, #008b79, #1180a1);
+}
+
+.summary h1 {
+    margin: 0;
+    padding: 2rem;
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.icon {
+    margin-left: 0.5rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon:hover {
+    transform: scale(2);
+}
+
+.icon svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: whitesmoke;
+}
+
+@media (min-width: 768px) {
+    .summary h1 {
+        font-size: 5rem;
+        height: 50vh;
+    }
+
+    .summary {
+        height: 50vh;
+    }
+}
